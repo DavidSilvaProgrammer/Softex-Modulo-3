@@ -1,0 +1,31 @@
+def quicksort(lista, inicio=0, fim=None):
+	
+   if fim is None:
+	
+       fim = len(lista)-1
+	
+   if inicio < fim:
+	
+       pivo = particao(lista, inicio, fim)
+	
+       quicksort(lista, inicio, pivo-1)
+	
+       quicksort(lista, pivo+1, fim)
+	
+def particao(lista, inicio, fim):
+	
+   pivot = lista[fim]
+	
+   indice = inicio
+	
+   for verif in range(inicio, fim):
+	
+       if lista[verif] <= pivot:
+	
+           lista[verif], lista[indice] = lista[indice], lista[verif]
+	
+           indice = indice + 1
+	
+   lista[indice], lista[fim] = lista[fim], lista[indice]
+	
+   return indice
