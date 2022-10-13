@@ -15,11 +15,18 @@ def bubble_sort():
         lista.append(int(input(f'Digite o valor {cont+1}º da lista:\n')))
     for j in range (numero_lista-1):
         for i in range(numero_lista-1):
+            print(f"{j} e {i}\n")
+            print(f"{lista}\n")
             print(f"{lista[i]} e {lista[i+1]}\n")
             if (lista[i]>lista[i+1]):
                 lista[i],lista[i+1]=lista[i+1],lista[i]
                 print(f"{lista[i]} e {lista[i+1]}\n")
     print(lista)
+
 bubble_sort()
     
-          
+            
+        
+        
+
+
