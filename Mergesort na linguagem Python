@@ -1,0 +1,27 @@
+
+
+for k in range(inicio, fim):
+
+   if topoEsq >= len(esquerda):
+
+       lista[k] = direita[topoDir]
+
+       topoDir = topoDir + 1
+
+   elif topoDir >= len(direita):
+
+       lista[k] = esquerda[topoEsq]
+
+       topoEsq = topoEsq + 1
+
+   elif esquerda[topoEsq] < direita[topoDir]:
+
+       lista[k] = esquerda[topoEsq]
+
+       topoEsq =topoEsq + 1
+
+   else:
+
+       lista[k] = direita[topoDir]
+
+       topoDir = topoDir + 1
