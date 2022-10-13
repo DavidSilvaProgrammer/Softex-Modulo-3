@@ -9,24 +9,17 @@
 #- repetir a operação até que nenhuma troca possa ser feita no vetor inteiro.
 
 def bubble_sort():
-lista=[]
-
-
-    for cont in range (numero_lista-1):
+    lista=[]
+    numero_lista = int(input ("Digite a quantidade de elementos na lista:\n"))
+    for cont in range (numero_lista):
         lista.append(int(input(f'Digite o valor {cont+1}º da lista:\n')))
-    número_lista=len(lista)
     for j in range (numero_lista-1):
         for i in range(numero_lista-1):
-            print("{lista[i] e lista[i+1]}\n")
-            if lista[i]>lista[i+1]:
-                lista[i],lista[indice+1]=lista[i+1],lista[i]
-                print("{lista[i] e lista[i+1]}\n")
-                
+            print(f"{lista[i]} e {lista[i+1]}\n")
+            if (lista[i]>lista[i+1]):
+                lista[i],lista[i+1]=lista[i+1],lista[i]
+                print(f"{lista[i]} e {lista[i+1]}\n")
+    print(lista)
 bubble_sort()
-        
     
-            
-        
-        
-
-
+          
