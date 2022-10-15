@@ -1,0 +1,14 @@
+def insertion_sort(vetor):
+    for etapa in range(1,len(vetor)):
+        chave=vetor[etapa]
+        j = etapa - 1
+        
+        while j>=0 and chave<vetor[j]:
+            vetor[j+1]=vetor[j]
+            j = j-1
+        vetor[j+1]=chave
+        
+elementos=[5,3,9,19,23,99,105,13,29,11]
+insertion_sort(elementos)
+print("Vetor em ordem crescente utilizando o algoritmo insertion sort:\n")
+print(elementos)
