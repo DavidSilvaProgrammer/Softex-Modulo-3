@@ -1,0 +1,16 @@
+#Problema: Construa um algoritmo de ordenação utilizando o método insertion sort estudado e ordene o seguinte vetor de forma crescente: [12,11,13,5,6].
+
+def selection_sort(vetor,tamanho):
+    for etapa in range(tamanho):
+        menor_ind = etapa
+        for i in range(etapa+1,tamanho):
+            if (vetor[i]<vetor[menor_ind]):
+                menor_ind=i
+        (vetor[etapa],vetor[menor_ind]) = (vetor[menor_ind],vetor[etapa])
+    
+elementos=[5,3,9,19,23,99,105,13,29,11]
+tamanho=len(elementos)
+selection_sort(elementos,tamanho)
+print("Vetor em ordem crescente utilizando o algoritmo selection sort:\n")
+print(elementos)
+    
