@@ -1,0 +1,25 @@
+/*Redimensionamento de memória. O malloc possui um parametro. O realloc possui 2 parametros, o primeiro parametro coloca-se o 
+ponteiro anterior que foi utilizado no malloc. No segundo parametro, coloca-se o novo espaço de armazenamento, memória*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <locale.h>
+
+int main() {
+    
+    int *p = (int*) malloc(2*sizeof(int));
+    p[0]=10;
+    p[1]=20;
+    
+    int *q = (int*) realloc(p,3*sizeof(int));
+    q[2]=30;
+    
+    int i;
+    for(i=0;i<3;i++){
+        printf("%d ",q[i]);
+    }
+
+    
+    return 0;
+}
