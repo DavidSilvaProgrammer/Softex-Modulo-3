@@ -1,3 +1,6 @@
+/*Com * representa o valor. Com sem * representa o endereço. Utilizando o *, o ponteiro ganha todo o status de da outra variável. 
+Utilizando o ponteiro sem *, ele simplemente só mostra o endereço da outra variável que ele tem armazenado. */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
