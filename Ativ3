@@ -1,0 +1,25 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main() {
+    int *arr;
+    
+    arr=(int *) malloc(22*sizeof(int));
+    
+    if(!arr){
+    printf("Nao foi possivel criar memoria para esse vetor.\n");
+    return 1;
+    }
+    for (int i=0;i<22;i++){
+        arr[i]=i+1;
+    }
+    for(int i=0;i<22;i++){
+        printf("%d\n",arr[i]);
+    }
+    
+    free(arr);
+
+    return 0;
+}
