@@ -3,7 +3,8 @@
 - use a função sizeof;
 - que tenha tamanho 22 de vetor;
 - depois libere o bloco utilizando a função free.
-Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o link no campo ao lado para que outros desenvolvedores possam analisá-lo.*/
+Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o link no campo ao 
+lado para que outros desenvolvedores possam analisá-lo.*/
 
 
 #include <stdio.h>
