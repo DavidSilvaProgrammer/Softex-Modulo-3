@@ -12,7 +12,7 @@ lado para que outros desenvolvedores possam analisá-lo.*/
 #include <math.h>
 
 int main() {
-    int *arr,*realocar, i,x,y=22;
+    int *arr, *realocar, i,x,y=25;
     
     arr=(int *) malloc(22*sizeof(int));
     
@@ -27,16 +27,16 @@ int main() {
         printf("%d\n",arr[i]);
     }
     
-    realocar = (int*) realloc(arr,22*sizeof(int));
+   realocar = (int*) realloc(arr,25*sizeof(int));
     
     if(!realocar){
     printf("Nao foi possivel realocar a memoria para esse vetor.\n");
     return 1;
     }
-    for (i=0;i>22;i++){
+    for (i=0;i>25;i++){
         realocar[i]=y;
     }
-    for(i=0;i<22;i++){
+    for(i=0;i<25;i++){
         printf("%d\n",realocar[i]);
     }
     
