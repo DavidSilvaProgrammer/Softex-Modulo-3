@@ -26,7 +26,7 @@ int main() {
     
     //recebendo os dados para o vetor
     for(i=0; i<quant_elementos;i++){
-        printf("Digite o numero para o indice [%d]:",i);
+        printf("Digite o numero para o indice [%d]: ",i);
         scanf("%d",&p[i]);
     }
     printf("\n");
@@ -35,7 +35,8 @@ int main() {
         printf("Valor armazenado no elemento de indice [%d] = %d\n",i,p[i]);
     }
     printf("\n");
-
+    //Liberando a memória que foi alocada
+    free(p);
 
     return 0;
 }
