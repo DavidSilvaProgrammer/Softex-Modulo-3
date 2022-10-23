@@ -3,7 +3,7 @@ class Cubo:
     def __init__(self,valor): #método construtor da classs
         self.x=valor
         print('Objeto criado!')
-    def calcula_cubo(self):
+    def calcula_cubo(self): #método de uso geral
         cubo=self.x*self.x*self.x
         return 'Cubo calculado: ' + str(cubo) 
         
