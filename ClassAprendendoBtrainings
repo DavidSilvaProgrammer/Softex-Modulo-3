@@ -1,5 +1,5 @@
 class Cubo:
-    '''Classe para calcular o cubo de um número'''
+    '''Classe para calcular o cubo de um número''' #docstring é quando tem uma descrição longa com 3 aspas simples
     def __init__(self,valor): #método construtor da classs
         self.x=valor
         print('Objeto criado!')
