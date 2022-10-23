@@ -1,0 +1,23 @@
+class Gato:
+    '''Classe para trabalhar com gatos'''
+    def __init__(self,nome):
+        '''Método construtor: Inicializa o objeto capturando o nome do animal'''
+        self.nome=nome
+        print('Seu gatinho se chama',self.nome)
+    def peso_gato(self,peso): #método de uso geral
+        self.peso=peso
+        if(self.peso>5.0):
+            print('Seu gato está gordinho!')
+        elif(self.peso>3.5):
+            print('Peso parece normal.')
+        else:
+            print("O animal está abaixo do peso!")
+
+        
+nome_gato=input('Digite o nome de seu gato: ')
+g1=Gato(nome_gato)
+peso=float(input('\nQual o peso de seu gato, em kg? '))
+g1.peso_gato(peso)
+
+#Entendi que o objeto foi criado como uma variável "nome_gato" e depois na hora de utilizar o método geral, 
+#só foi necessário utilizar um ponto entre o objeto e a função geral. Obs.: Método = função
