@@ -19,7 +19,6 @@ idade=float(input("Digite a idade do animal:\n"))
 raça=input("Digite a raça do animal:\n")
 resp=input("Digite o nome do responsável pelo animal:\n")
 tel_resp=input("Digite o telefone do responsável:\n")
-print("\n")
 objeto_animal=Pet()
 objeto_animal.dados_animal(nome,idade,raça,resp,tel_resp)
 
