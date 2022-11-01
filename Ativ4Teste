@@ -1,7 +1,7 @@
 class Pet:
     tipo="Animal de estimição"
     
-    def __unit__ (self, nome, idade, raça, resp,tel_resp):
+    def __unit__ (self):
         
         nome=input("Digie o nome do animal:\n ")
         idade=float(input("Digite a idade do animal:\n "))
@@ -14,4 +14,6 @@ class Pet:
         self.raça=raça
         self.resp=resp
         self.tel_resp=tel_resp
+        
+        
         
