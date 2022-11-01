@@ -1,0 +1,26 @@
+class Pet:
+    tipo="Animal de estimição"
+    
+    def __unit__ (self):
+        print("Dados de um animal de estimação")
+    
+    def dados_animal(self,nome,idade,raça,resp,tel_resp):
+        self.nome=nome
+        self.idade=idade
+        self.raça=raça
+        self.resp=resp
+        self.tel_resp=tel_resp
+   
+        print(f"\nNome: {self.nome}\nIdade: {self.idade:0.2f}\nRaça: {self.raça}\nResponsável: {self.resp}\nTelefone do responsável: {tel_resp}")
+        
+        
+nome=input("Digite o nome do animal:\n")
+idade=float(input("Digite a idade do animal:\n"))
+raça=input("Digite a raça do animal:\n")
+resp=input("Digite o nome do responsável pelo animal:\n")
+tel_resp=input("Digite o telefone do responsável:\n")
+print("\n")
+objeto_animal=Pet()
+objeto_animal.dados_animal(nome,idade,raça,resp,tel_resp)
+
+        
