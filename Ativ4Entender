@@ -1,0 +1,39 @@
+#Crie um tipo abstrato de dados na linguagem Python para manipular o cadastro de animais de estimação de um pet shop.
+#O código deve conter atributos, como:
+
+#nome do animal;
+#raça do animal; 
+#idade do animal;
+#nome do responsável;
+#telefone do responsável.
+
+#Crie uma função e a programe para: 
+#solicitar que os atributos sejam inseridos pelo teclado;
+#retornar o cadastro do animal de estimação.
+
+
+class Pet:
+    
+    def __unit__ (self):
+        tipo="Cadastro de animal de estimação"
+    
+    def dados_animal(self,nome,idade,raça,resp,tel_resp):
+        self.nome=nome
+        self.idade=idade
+        self.raça=raça
+        self.resp=resp
+        self.tel_resp=tel_resp
+        
+        print(f"\nCadastro de animal concluído:\nNome: {self.nome}\nIdade: {self.idade:0.2f}\nRaça: {self.raça}\nResponsável: {self.resp}\nTelefone do responsável: {tel_resp}")
+        
+nome=input("Digite o nome do animal:\n")
+idade=float(input("Digite a idade do animal:\n"))
+raça=input("Digite a raça do animal:\n")
+resp=input("Digite o nome do responsável pelo animal:\n")
+tel_resp=input("Digite o telefone do responsável:\n")
+objeto_animal=Pet()
+objeto_animal.dados_animal(nome,idade,raça,resp,tel_resp)
+
+print(f"{objeto_animal.tipo}")
+
+        
