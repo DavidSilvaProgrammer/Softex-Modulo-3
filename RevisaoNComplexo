@@ -1,9 +1,17 @@
 a=1+2j
 b=complex(3,4)
 
+print(f"{a}")
 print(f"{type(a)}\n")
+
+print(f"{b}")
 print(f"{type(b)}\n")
+
+
 print(f"{a+b}\n")
 print(f"{a-b}\n")
 print(f"{a*b}\n")
 print(f"{a/b}\n")
+
+print(f"{a.real}\n")
+print(f"{a.imag}\n")
