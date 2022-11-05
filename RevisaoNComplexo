@@ -15,3 +15,8 @@ print(f"{a/b}\n")
 
 print(f"{a.real}\n")
 print(f"{a.imag}\n")
+print(f"{a.conjugate()}\n")
+
+#pode colocar assim também
+
+print(a.conjugate())
