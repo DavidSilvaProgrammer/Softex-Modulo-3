@@ -1,0 +1,6 @@
+a=1+2j
+b=complex(3,4)
+print(f"{a+b}\n")
+print(f"{a-b}\n")
+print(f"{a*b}\n")
+print(f"{a/b}\n")
