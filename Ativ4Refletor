@@ -1,0 +1,68 @@
+#Crie um tipo abstrato de dado (TAD) para manipular números complexos na linguagem Python. O método deve: 
+
+#- calcular três números complexos; 
+#- realizar todas as operações básicas; 
+#- e imprimir as propriedades real e img do números.
+
+#Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto no campo ao lado para que outros desenvolvedores possam analisá-lo.
+
+
+class Complexos:
+    
+    def __unit__ (self):
+        self.r1 = float(input('Digite o número real do primeiro número complexo: '))
+        self.i1= float(input('Digite o número imaginário do primeiro número complexo: '))
+        self.r2 = float(input('Digite o número real do primeiro número complexo: '))
+        self.i2= float(input('Digite o número imaginário do primeiro número complexo: '))
+        self.r3 = float(input('Digite o número real do primeiro número complexo: '))
+        self.i3= float(input('Digite o número imaginário do primeiro número complexo: '))
+    
+    def calcula():
+        
+        complex(r1,i1)
+        complex(r2,i2)
+        complex(r3,i3)
+        
+        self.soma=complex(r1,i1)+complex(r2,i2)+complex(r3,i3)
+        self.subtracao=complex(r1,i1)-complex(r2,i2)-complex(r3,i3)
+        self.multiplicacao=complex(r1,i1)*complex(r2,i2)*complex(r3,i3)
+        self.divisao=complex(r1,i1)/complex(r2,i2)/complex(r3,i3)
+        
+        
+    
+   
+        print(f"\nCadastro de animal concluído:\nNome: {self.nome}\nIdade: {self.idade:0.2f}\nRaça: {self.raça}\nResponsável: {self.resp}\nTelefone do responsável: {tel_resp}")
+        
+        
+nome=input("Digite o nome do animal:\n")
+idade=float(input("Digite a idade do animal:\n"))
+raça=input("Digite a raça do animal:\n")
+resp=input("Digite o nome do responsável pelo animal:\n")
+tel_resp=input("Digite o telefone do responsável:\n")
+print("\n")
+objeto_animal=Pet()
+objeto_animal.dados_animal(nome,idade,raça,resp,tel_resp)
+
+
+a=1+2j
+b=complex(3,4)
+
+print(f"{a}")
+print(f"{type(a)}\n")
+
+print(f"{b}")
+print(f"{type(b)}\n")
+
+
+print(f"{a+b}\n")
+print(f"{a-b}\n")
+print(f"{a*b}\n")
+print(f"{a/b}\n")
+
+print(f"{a.real}\n")
+print(f"{a.imag}\n")
+print(f"{a.conjugate()}\n")
+
+#pode colocar assim também
+
+print(a.conjugate())
