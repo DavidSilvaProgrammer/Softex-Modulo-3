@@ -10,6 +10,7 @@
 class Complexos:
     
     def __unit__ (self):
+        print("Olá")
         self.r1 = float(input('Digite o número real do primeiro número complexo: '))
         self.i1= float(input('Digite o número imaginário do primeiro número complexo: '))
         self.r2 = float(input('Digite o número real do primeiro número complexo: '))
@@ -17,25 +18,28 @@ class Complexos:
         self.r3 = float(input('Digite o número real do primeiro número complexo: '))
         self.i3= float(input('Digite o número imaginário do primeiro número complexo: '))
     
-    def calcula():
+    def calcula(self):
         
-        complex(r1,i1)
-        complex(r2,i2)
-        complex(r3,i3)
+        self.complex(r1,i1)
+        self.complex(r2,i2)
+        self.complex(r3,i3)
         
         self.soma=complex(r1,i1)+complex(r2,i2)+complex(r3,i3)
         self.subtracao=complex(r1,i1)-complex(r2,i2)-complex(r3,i3)
         self.multiplicacao=complex(r1,i1)*complex(r2,i2)*complex(r3,i3)
         self.divisao=complex(r1,i1)/complex(r2,i2)/complex(r3,i3)
     
-    def propriedades():
-        print(f"Número real do primeiro número complexo: {complex(r1,i1).imag}")
-        print(f"Número imaginário do primeiro número complexo: {complex(r1,i1).real}")
-        print(f"Número real do segundo número complexo: {complex(r2,i2).imag}")
-        print(f"Número imaginário do segundo número complexo: {complex(r2,i2).real}")
-        print(f"Número real do terceiro número complexo: {complex(r3,i3).imag}")
-        print(f"Número imaginário do terceiro número complexo: {complex(r3,i3).real}")
+    def propriedades(self):
+        print(f"Número real do primeiro número complexo: {self.complex(r1,i1).imag}")
+        print(f"Número imaginário do primeiro número complexo: {self.complex(r1,i1).real}")
+        print(f"Número real do segundo número complexo: {self.complex(r2,i2).imag}")
+        print(f"Número imaginário do segundo número complexo: {self.complex(r2,i2).real}")
+        print(f"Número real do terceiro número complexo: {self.complex(r3,i3).imag}")
+        print(f"Número imaginário do terceiro número complexo: {self.complex(r3,i3).real}")
         
+x=Complexos()
+x.calcula()
+
 #Dica de como utilizar imag e real no complex função
 #print(complex(3,4).imag)
 
