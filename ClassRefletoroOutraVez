@@ -1,0 +1,10 @@
+class Complexos:
+    
+    def __init__ (self):
+        self.r1 = float(input('Digite o número real do primeiro número complexo: '))
+        self.i1= float(input('Digite o número imaginário do primeiro número complexo: '))
+        self.r2 = float(input('Digite o número real do primeiro número complexo: '))
+        self.i2= float(input('Digite o número imaginário do primeiro número complexo: '))
+        self.r3 = float(input('Digite o número real do primeiro número complexo: '))
+        self.i3= float(input('Digite o número imaginário do primeiro número complexo: '))
+    
