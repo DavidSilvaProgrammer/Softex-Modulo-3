@@ -27,42 +27,16 @@ class Complexos:
         self.subtracao=complex(r1,i1)-complex(r2,i2)-complex(r3,i3)
         self.multiplicacao=complex(r1,i1)*complex(r2,i2)*complex(r3,i3)
         self.divisao=complex(r1,i1)/complex(r2,i2)/complex(r3,i3)
-        
-        
     
-   
-        print(f"\nCadastro de animal concluído:\nNome: {self.nome}\nIdade: {self.idade:0.2f}\nRaça: {self.raça}\nResponsável: {self.resp}\nTelefone do responsável: {tel_resp}")
+    def propriedades():
+        print(f"Número real do primeiro número complexo: {complex(r1,i1).imag}")
+        print(f"Número imaginário do primeiro número complexo: {complex(r1,i1).real}")
+        print(f"Número real do segundo número complexo: {complex(r2,i2).imag}")
+        print(f"Número imaginário do segundo número complexo: {complex(r2,i2).real}")
+        print(f"Número real do terceiro número complexo: {complex(r3,i3).imag}")
+        print(f"Número imaginário do terceiro número complexo: {complex(r3,i3).real}")
         
-        
-nome=input("Digite o nome do animal:\n")
-idade=float(input("Digite a idade do animal:\n"))
-raça=input("Digite a raça do animal:\n")
-resp=input("Digite o nome do responsável pelo animal:\n")
-tel_resp=input("Digite o telefone do responsável:\n")
-print("\n")
-objeto_animal=Pet()
-objeto_animal.dados_animal(nome,idade,raça,resp,tel_resp)
+#Dica de como utilizar imag e real no complex função
+#print(complex(3,4).imag)
 
-
-a=1+2j
-b=complex(3,4)
-
-print(f"{a}")
-print(f"{type(a)}\n")
-
-print(f"{b}")
-print(f"{type(b)}\n")
-
-
-print(f"{a+b}\n")
-print(f"{a-b}\n")
-print(f"{a*b}\n")
-print(f"{a/b}\n")
-
-print(f"{a.real}\n")
-print(f"{a.imag}\n")
-print(f"{a.conjugate()}\n")
-
-#pode colocar assim também
-
-print(a.conjugate())
+#print(complex(3,4).real)
