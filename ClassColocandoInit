@@ -1,0 +1,36 @@
+#Crie um tipo abstrato de dado (TAD) para manipular números complexos na linguagem Python. O método deve: 
+
+#- calcular três números complexos; 
+#- realizar todas as operações básicas; 
+#- e imprimir as propriedades real e img do números.
+
+#Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto no campo ao lado para que outros desenvolvedores possam analisá-lo.
+
+
+class Complexos:
+    info="Calculo com números complexos"
+    def __init__(self,r1,i1,r2,i2,r3,i3):
+        self.r1=r1
+        self.i1=i1
+        self.r2=r2
+        self.i2=i2
+        self.r3=r3
+        self.i3=i3
+    
+    def calcula(self):
+        
+        self.soma=complex(self.r1,self.i1)+complex(self.r2,self.i2)+complex(self.r3,self.i3)
+        self.subtracao=complex(self.r1,self.i1)-complex(self.r2,self.i2)-complex(self.r3,self.i3)
+        self.multiplicacao=complex(self.r1,self.i1)*complex(self.r2,self.i2)*complex(self.r3,self.i3)
+        self.divisao=complex(self.r1,self.i1)/complex(self.r2,self.i2)/complex(self.r3,self.i3)
+        
+        print(f"Soma: {self.soma}\nSubtração: {self.subtracao}\nMultiplicação: {self.multiplicacao}\nDivisão: {self.divisao}")
+    
+
+x=Complexos(1,2,3,4,5,6)
+x.calcula()
+
+#Dica de como utilizar imag e real no complex função
+#print(complex(3,4).imag)
+
+#print(complex(3,4).real)
