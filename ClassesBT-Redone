@@ -23,9 +23,9 @@ class Gato:
             self.msg='Diminua a ração do felino'
         return self.msg
         
-        def dados_gato(self):
-            print('\nO gato',self.nome, 'está com',self.peso,'kg')
-            print(self._dieta_especial_gato())
+    def dados_gato(self):
+        print('\nO gato',self.nome, 'está com',self.peso,'kg')
+        print(self._dieta_especial_gato())
             
 nome_gato=input('Digite o nome de seu gato: ')
 g1=Gato(nome_gato)
@@ -34,5 +34,3 @@ peso=float(input('\nQual o peso de seu gato, em kg: '))
 g1.peso_gato(peso)
         
 g1.dados_gato()
-        
-            
