@@ -1,4 +1,4 @@
-Class Gato:
+class Gato:
     '''Classe para trabalhar com gatos'''
     tipo_animal='Felino'
     def __init__(self,nome):
@@ -23,16 +23,16 @@ Class Gato:
             self.msg='Diminua a ração do felino'
         return self.msg
         
-        nome_gato=input('Digite o nom de seu gato')
-        g1=Gato(nome_gato)
         def dados_gato(self):
             print('\nO gato',self.nome, 'está com',self.peso,'kg')
             print(self._dieta_especial_gato())
             
-        nome_gato=input('Digite o nome de seu gato ')
-        g1=Gato(nome_gato)
+nome_gato=input('Digite o nome de seu gato: ')
+g1=Gato(nome_gato)
         
-        peso=float(input('\nQual o peso de seu gato, em kg'))
-        g1.peso_gato(peso)
+peso=float(input('\nQual o peso de seu gato, em kg: '))
+g1.peso_gato(peso)
         
-        g1.dados_gato()
+g1.dados_gato()
+        
+            
