@@ -1,0 +1,54 @@
+#Crie um tipo abstrato de dado (TAD) para manipular números complexos na linguagem Python. O método deve: 
+
+#- calcular três números complexos; 
+#- realizar todas as operações básicas; 
+#- e imprimir as propriedades real e img do números.
+
+#Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto no campo ao lado para que outros desenvolvedores possam analisá-lo.
+
+
+class Complexos:
+    
+    def __init__ (self):
+        self.r1 = float(input('Digite o número real do primeiro número complexo: '))
+        self.i1= float(input('Digite o número imaginário do primeiro número complexo: '))
+        self.r2 = float(input('Digite o número real do primeiro número complexo: '))
+        self.i2= float(input('Digite o número imaginário do primeiro número complexo: '))
+        self.r3 = float(input('Digite o número real do primeiro número complexo: '))
+        self.i3= float(input('Digite o número imaginário do primeiro número complexo: '))
+    
+    def calcula(self):
+        
+        self.c1=complex(self.r1,self.i1)
+        self.c2=complex(self.r2,self.i2)
+        self.c3=complex(self.r3,self.i3)
+        
+        self.soma=self.c1+self.c2+self.c3
+        self.subtracao=self.c1-self.c2-self.c3
+        self.multiplicacao=self.c1*self.c2*self.c3
+        self.divisao=self.c1/self.c2/self.c3
+        
+        print(f"\nSoma dos números complexos: {self.soma}")
+        print(f"Subtração dos números complexos: {self.subtracao}")
+        print(f"Multiplicação dos números complexos: {self.multiplicacao}")
+        print(f"Divisão dos números complexos: {self.divisao}\n")
+        
+    
+    def propriedades(self):
+        print(f"\nNúmero real do primeiro número complexo: {self.c1.real}")
+        print(f"Número imaginário do primeiro número complexo: {self.c1.imag}")
+        print(f"Número real do segundo número complexo: {self.c2.real}")
+        print(f"Número imaginário do segundo número complexo: {self.c2.imag}")
+        print(f"Número real do terceiro número complexo: {self.c3.real}")
+        print(f"Número imaginário do terceiro número complexo: {self.c3.imag}\n")
+        
+x=Complexos()
+x.calcula()
+x.propriedades()
+
+
+        
+#Dica de como utilizar imag e real no complex função
+#print(complex(3,4).imag)
+
+#print(complex(3,4).real)
