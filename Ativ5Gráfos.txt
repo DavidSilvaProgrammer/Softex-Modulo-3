@@ -1,0 +1,3 @@
+O padrão clássico de desbloqueio dos smartphones, envolve o conceito de grafos. O usuário deve predeterminar uma sequência de vertices que traçam um caminho por meio de arrestas para que o desbloqueio do dispositivo seja efetuado.
+
+Outro uso do grafos na tecnologia, é no app do Google Maps, o endereço (estado, cidade, bairro e rua) são os vertices e os trajetos entre eles são as arestas. O aplicativo realiza um calculo sobre o grafo projetado mapa e, por meio disso, consegue encotrar a menor rota para a viagem do usuário. 
