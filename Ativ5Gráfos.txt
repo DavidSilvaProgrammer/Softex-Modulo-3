@@ -1,3 +1,3 @@
-O padr„o cl·ssico de desbloqueio dos smartphones, envolve o conceito de grafos. O usu·rio deve predeterminar uma sequÍncia de vertices que traÁam um caminho por meio de arrestas para que o desbloqueio do dispositivo seja efetuado.
+O padr√£o cl√°ssico de desbloqueio dos smartphones, envolve o conceito de grafos. O usu√°rio deve predeterminar uma sequ√™ncia de v√©rtices que tra√ßam um caminho por meio de arrestas para que o desbloqueio do dispositivo seja efetuado. 
 
-Outro uso do grafos na tecnologia, È no app do Google Maps, o endereÁo (estado, cidade, bairro e rua) s„o os vertices e os trajetos entre eles s„o as arestas. O aplicativo realiza um calculo sobre o grafo projetado mapa e, por meio disso, consegue encotrar a menor rota para a viagem do usu·rio. 
+Outro uso dos grafos na tecnologia √© no app do Google Maps, o endere√ßo (estado, cidade, bairro e rua) s√£o os v√©rtices e os trajetos entre eles s√£o as arestas. O aplicativo realiza um c√°lculo sobre o grafo projetado no mapa e, por meio disso, consegue encontrar a menor rota para a viagem do usu√°rio. 
