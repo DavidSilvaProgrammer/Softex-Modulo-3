@@ -13,5 +13,6 @@ no término dela.
 Outrossim, nota-se no mecanismo tradicional de senha para ativação de smartphones o conceito de grafos 
 direcionados, o usuário deve interligar os vertices por aresta em uma determinada trajetória para 
 então formar uma senha, cada vértice forma uma conexão com uma aresta em uma direção. Nesse exemplo 
-ainda é possível verificar que essas senhas dos smartphones  podem ser cíclicas ou acíclicas, o usuário 
-pode elaborar uma senha utizando arestas que interligue o vértice inicial com o final.
+ainda é possível verificar que essas senhas dos smartphones  podem ser cíclicas ou acíclicas, um ciclo 
+acontece quando, a partir de um determinado vértice é possível percorrer algum caminho que leve a esse 
+mesmo vértice.
