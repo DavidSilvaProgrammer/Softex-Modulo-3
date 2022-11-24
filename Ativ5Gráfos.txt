@@ -1,3 +1,7 @@
-O padrão clássico de desbloqueio dos smartphones, envolve o conceito de grafos. O usuário deve predeterminar uma sequência de vértices que traçam um caminho por meio de arrestas para que o desbloqueio do dispositivo seja efetuado. 
+O padrão clássico de desbloqueio dos smartphones, envolve o conceito de grafos. 
+O usuário deve predeterminar uma sequência de vértices que traçam um caminho 
+por meio de arrestas para que o desbloqueio do dispositivo seja efetuado. 
 
-Outro uso dos grafos na tecnologia é no app do Google Maps, o endereço (estado, cidade, bairro e rua) são os vértices e os trajetos entre eles são as arestas. O aplicativo realiza um cálculo sobre o grafo projetado no mapa e, por meio disso, consegue encontrar a menor rota para a viagem do usuário. 
+Outro uso dos grafos na tecnologia é no app do Google Maps, o endereço (estado, cidade, bairro e rua) 
+são os vértices e os trajetos entre eles são as arestas. O aplicativo realiza um cálculo sobre o grafo 
+projetado no mapa e, por meio disso, consegue encontrar a menor rota para a viagem do usuário. 
