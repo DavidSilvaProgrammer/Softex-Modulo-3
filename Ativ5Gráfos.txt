@@ -5,3 +5,13 @@ por meio de arrestas para que o desbloqueio do dispositivo seja efetuado.
 Outro uso dos grafos na tecnologia é no app do Google Maps, o endereço (estado, cidade, bairro e rua) 
 são os vértices e os trajetos entre eles são as arestas. O aplicativo realiza um cálculo sobre o grafo 
 projetado no mapa e, por meio disso, consegue encontrar a menor rota para a viagem do usuário. 
+
+Desse modo, ambos os exemplos tratam do conceito de grafos direcionados. No caso do google Maps, 
+uma certa quantidade de arestas que interligam vertices tem um começo no início da viegam e um fim 
+no término dela. 
+
+Outrossim, nota-se no mecanismo tradicional de senha para ativação de smartphones o conceito de grafos 
+direcionados, o usuário deve interligar os vertices por aresta em uma determinada trajetória para 
+então formar uma senha, cada vértice forma uma conexão com uma aresta. Nesse exemplo ainda é possível 
+verificar que essas senhas dos smartphones  podem ser cíclica ou acíclica, o usuário pode elaborar
+uma senha utizando arestas que interligue o vértice inicial com o final.
